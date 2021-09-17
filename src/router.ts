@@ -1,15 +1,15 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 
-const Home = () => import('./components/Home.vue');
+const Car = () => import('./components/Car.vue');
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
     {
         path: '/',
-        name: 'Home',
-        component: Home,
+        name: 'Car',
+        component: Car,
     },
     {
         path: '*',
